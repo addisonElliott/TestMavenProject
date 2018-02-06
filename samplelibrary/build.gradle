@@ -4,8 +4,6 @@ apply plugin: 'com.android.library'
 
 version = '1.16.7-SNAPSHOT'
 
-def isSnapshot = version.endsWith('-SNAPSHOT')
-
 android {
     compileSdkVersion 26
 
